@@ -4,7 +4,6 @@ public class BinaryConverter {
 	private int resultado = 0;
 
 	public BinaryConverter() {
-
 	}
 
 	public void inputString(String BinaryString) {
@@ -31,13 +30,9 @@ public class BinaryConverter {
 	public void binaryToInteger(int[] bArray) {
 		int result = 0;
 		for (int i = 0; i < bArray.length; i++) {
-
 			result += (Math.pow(2, i) * bArray[i]);
-
 		}
-
 		this.resultado = result;
-
 	}
 
 	public String toString() {
@@ -52,7 +47,6 @@ public class BinaryConverter {
 			if (analyseChar != '0' && analyseChar != '1') {
 				return false;
 			}
-
 		}
 		return true;
 	}
