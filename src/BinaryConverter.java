@@ -1,6 +1,4 @@
 
-import javax.swing.JOptionPane;
-
 public class BinaryConverter {
 
 	private int resultado = 0;
